@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akanksha Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Akanksha
+            <span></span>
+        </a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#technology">Technology</a>
+            <a href="#portfolios">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Akanksha</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>I'm pursuing MCA from NIET, Gr. Noida with a deep interest in coding and computer science. I enjoy diving
+                into various
+                aspects of technology, from software development to complex algorithms. I am always eager to learn,
+                solve challenging problems, and expand my tech skills.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/akanksha-5a581b212"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/akku13-R"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/___akanksha13/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://x.com/Rashmika_6"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="https://drive.google.com/file/d/1-zNvGLJlNIyf3Rc-msmfHlREJtZIL0D8/view?usp=drive_link"
+                    class="btn">Resume</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="../images/RashmiPic-removebg-preview.png" alt="">
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"> </div>
+                <div class="timeline-date">2016-2017</div>
+                <div class="timeline-content">
+                    <h3>Higher Secondary</h3>
+                    <p>I completed my higher secondary education in 2017 from D.A.V Public School, Muzaffarpur under the CBSE
+                        (Central Board of Secondary Education),
+                        achieving a score of 79%. </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018-2019</div>
+                <div class="timeline-content">
+                    <h3>Senior Secondary</h3>
+                    <p> I completed my senior secondary education in 2019 from paramount Academy Silout,Bimal,Muzaffarpur under the CBSE (Central Board of Secondary Education),
+                        with a 60% score, focusing on physics, chemistry, and
+                        mathematics. My academic journey reflects my commitment to excellence and continuous learning in
+                        the field of science.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019-2022</div>
+                <div class="timeline-content">
+                    <h3>BCA(Bachelor of Computer Applications)</h3>
+                    <p>I completed my Bachelor of Computer Applications (BCA) Patna Women's College, Patna University,
+                        Patna, in the batch of 2019-2022. During this period, I achieved a commendable academic
+                        performance, scoring 76.23% marks overall.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022-2024</div>
+                <div class="timeline-content">
+                    <h3>MCA(Master of Computer Applications)</h3>
+                    <p>I completed my Master of Computer Applications (MCA) from NIET College, Greater Noida, in the
+                        2022-2024 batch, achieving a commendable 8.08% marks. My academic journey at NIET was marked by
+                        rigorous coursework, hands-on projects, and exposure to advanced topics in computer science. The
+                        curriculum was designed to provide a strong foundation in both theoretical concepts and
+                        practical applications, covering subjects such as data structures, algorithms, database
+                        management, software engineering, and web technologies.</p>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="technology" id="technology">
+        <div class="technology-box">
+            <h2 class="heading">Technology</h2>
+
+            <div class="wrapper">
+               
+                <div class="technology-item">
+                    <img src="../images/python.webp" alt="">
+                    <h2>PYTHON</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>Python is my go-to language for its simplicity and versatility. Its clean syntax and readability
+                        make it easy to learn and use, while its..<span id="pythonMore" style="display: none;">
+                            extensive libraries and frameworks facilitate rapid
+                            development across various domains. From web development with Django or Flask to data
+                            analysis
+                            with pandas and machine learning with TensorFlow, Python empowers me to tackle diverse
+                            projects
+                            efficiently. Its dynamic nature and strong community support make it an ideal choice for
+                            both
+                            beginners and seasoned developers alike. Python is not just a programming language for me;
+                            it's
+                            a powerful tool that enables me to turn ideas into reality with ease.</span></p>
+                    <button onclick="togglePythonContent()">See More</button>
+                </div>
+                <div class="technology-item">
+                    <img src="../images/R.png" alt="">
+                    <h2>MYSQL</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>MySQL is a reliable and versatile relational database management system (RDBMS) that I'm
+                        proficient in using. It's my..<span id="mysqlMore" style="display: none;"> preferred choice for
+                            storing and managing structured data in
+                            various applications. With its ease of use, scalability, and robust performance, MySQL
+                            allows me
+                            to efficiently handle data storage, retrieval, and manipulation tasks. Whether I'm working
+                            on a
+                            small-scale project or a large-scale enterprise application, MySQL provides the flexibility
+                            and
+                            functionality I need to ensure data integrity and efficiency.</span></p>
+                    <button onclick="toggleMysqlContent()">See More</button>
+                </div>
+                <div class="technology-item">
+                    <img src="../images/OIP.jpg" alt="">
+                    <h2>HTML/CSS & Js</h2>
+                    <div class="rating">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>HTML and CSS form the backbone of web development, and I appreciate their simplicity and power.
+                        HTML provides..<span id="htmlMore" style="display: none;"> the structure for web pages, allowing
+                            me to organize content logically. CSS, on
+                            the other hand, brings those pages to life with style and aesthetics, enabling me to
+                            customize
+                            layouts, colors, fonts, and more. Together, they empower me to create visually appealing and
+                            functional websites that engage users effectively.</span></p>
+                    <button onclick="toggleHtmlContent()">See More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolios" id="portfolios">
+        <h2 class="heading">Portfolio</h2>
+        <div class="portfolios-container">
+            <div class="portfolio-box">
+                <div class="portfolio-info">
+                    <h4>Startup stories ( Consultancy services )</h4>
+                    <p>
+                        I created a Startup stories( Consultancy sevices) using reactjs and nodejs .Welcome to the inspiring journey of Startup Story, a venture rooted in the vision of empowerment, 
+                        innovation, and growth. This narrative encapsulates our remarkable voyage, highlighting the key 
+                        milestones, core values, and the dedicated individuals who have shaped our story.<br><a href="https://github.com/akku13-R/CodeClauseInternship_URLShortener"> 
+                            Live
+                            Project -</a></p>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <div class="portfolio-info">
+                    <h4>Weather-app </h4>
+                    <p>I created an weather-app using HTML, CSS, and JavaScript and used open ai. It's an engaging and interactive 
+                       project that showcases my skills in frontend web development.<br><a href="https://github.com/akku13-R/Weather-app">
+                            Live
+                            Project -</a></p>
+
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <div class="portfolio-info">
+                    <h4>URL Shortener</h4>
+                    <p>
+                        I developed an URL Shortener Application using Python. It's easy to create a URL-shortening application with Python.
+                        URL shorteners are handy tools that take long URLs and convert them into short, easily shareable links.<br><a href="https://github.com/akku13-R/CodeClauseInternship_URLShortener">
+                            Live
+                            Project -</a></p>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/akanksha-5a581b212"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/akku13-R"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/___akanksha13/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://x.com/Rashmika_6"><i class='bx bxl-twitter'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="http://www.google.com">FAQ</a>
+            </li>
+
+            <li>
+                <a href="#">Technology</a>
+            </li>
+
+            <li>
+                <a href="#">About Me</a>
+            </li>
+
+            <li>
+                <a href="#">Contact</a>
+            </li>
+
+            <li>
+                <a href="#">Portfolio</a>
+            </li>
+        </ul>
+        <p class="copyright">&copy; Akanksha | All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
